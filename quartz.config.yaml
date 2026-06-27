@@ -7,7 +7,7 @@ configuration:
   analytics:
     provider: plausible
   locale: zh-CN
-  baseUrl: notes.hxrch.top
+  baseUrl: vaults.hxrch.top
   ignorePatterns:
     - private
     - templates
