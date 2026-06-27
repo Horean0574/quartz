@@ -1,12 +1,12 @@
 # yaml-language-server: $schema=./quartz/plugins/quartz-plugins.schema.json
 configuration:
-  pageTitle: Quartz 5
+  pageTitle: Horean's Vaults
   pageTitleSuffix: ""
   enableSPA: true
   enablePopovers: true
   analytics:
     provider: plausible
-  locale: en-US
+  locale: zh-CN
   baseUrl: notes.hxrch.top
   ignorePatterns:
     - private
@@ -44,7 +44,7 @@ plugins:
   - source: github:quartz-community/created-modified-date
     enabled: true
     options:
-      defaultDateType: modified
+      defaultDateType: published
       priority:
         - frontmatter
         - git
@@ -215,8 +215,9 @@ plugins:
     enabled: true
     options:
       links:
-        GitHub: https://github.com/jackyzha0/quartz
-        Discord Community: https://discord.gg/cRFFHYye7t
+        GitHub: https://github.com/Horean0574
+        "Horean's Blog": https://blog.hxrch.top
+        "HXRCH Status": https://status.hxrch.top
   - source: github:quartz-community/recent-notes
     enabled: false
   - source: github:quartz-community/spacer
